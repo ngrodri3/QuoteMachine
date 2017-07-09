@@ -1,25 +1,4 @@
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
-    
-    body{
-        background-color:white;
-        
-    }
-    .main-title{
-        color:black;
-        font-size: 15px;
-        margin: 0 auto;
-        text-align: center;
-        
-    }
-    .author{
-        font-size: 12px;
-        margin: 0 auto;
-        font-color: pink;
-    }
-    
-}
+
 body{
   background-image:url("https://images.unsplash.com/reserve/LJIZlzHgQ7WPSh5KVTCB_Typewriter.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=f1a9c02e2797fae6489142772a546fb5");
   background-repeat: no-repeat;
@@ -87,4 +66,37 @@ body{
   overflow: hidden; }
 .alt-author{
   font-family:Poppins;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    
+    body{
+        background-color:white;
+        
+    }
+    .main-title{
+        color:black;
+        font-size: 15px;
+        margin: 0 auto;
+        text-align: center;
+        
+    }
+    .author{
+        font-size: 12px;
+        margin: 0 auto;
+        font-color: pink;
+    }
+    
+}
+
+@media only screen
+and (min-device-width:481 px)
+and (max-device-width: 800 px){
+    
+    body{
+        background-color:black;
+        
+    }
 }

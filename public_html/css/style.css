@@ -1,0 +1,68 @@
+body{
+  background-image:url("https://images.unsplash.com/reserve/LJIZlzHgQ7WPSh5KVTCB_Typewriter.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=f1a9c02e2797fae6489142772a546fb5");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.main-title{
+  color:black;
+  font-family: Patua One;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-top: 2px solid gray;
+  border-bottom:2px solid gray;
+  font-size: 55px;
+  padding-top: 5px;
+  padding-bottom:5px;
+  text-align: center;
+  text-shadow: 4px 4px gray;
+  float: right;
+  vertical-align: top;
+}
+.author{
+  padding-top:50px;
+  color: black;
+  font-family: Lobster;
+  text-align:center;
+  padding-bottom: 25px;
+  margin-bottom:20px;
+  font-size: 50px;
+  
+}
+.button-div{
+  padding-top: 50px;
+  padding-left: 150px;
+}
+.quote-box{
+  font-size: 25px;
+  margin: 0 auto;
+  overflow: hidden;
+  color:black;
+  text-align: center;
+  padding-left:220px;
+  padding-right: 220px;
+  vertical-align: text-top;
+
+}
+.quote-text{
+   font-family: Oswald;
+}
+.get-quote{
+  font-family: Anton;
+  text-align: center;
+  margin: 0 auto;
+  
+}
+.blank-space{
+  margin-top: 670px;
+  font-size: 5px;
+}
+.tweet-button{
+  padding-top: 40px;
+}
+#limit { 
+  position: relative; 
+  overflow: hidden; }
+.alt-author{
+  font-family:Poppins;
+}

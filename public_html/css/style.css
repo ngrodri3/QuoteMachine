@@ -1,102 +1,120 @@
 
 body{
+    background-image:url("https://images.unsplash.com/reserve/LJIZlzHgQ7WPSh5KVTCB_Typewriter.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=f1a9c02e2797fae6489142772a546fb5");
+    background-repeat: no-repeat;
+        background-color: #e9e9eb;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+html{
+    font-size: 14px;
+}
+.get-quote{
+    font-family: Anton;
+    font-size: 0.5rem;
+    text-align: center;
+
+}
+.button-div{
+    align-content: center;
+    text-align: center;
+}
+.main-title{
+    visibility: hidden;
+}
+.author{
+    font-family: Lobster;
+    font-size: 2rem;
+    text-shadow: 2px 2px white;
+
+}
+.author-box{
+    text-align: center;
+        min-height: 95px;
+        attachment:fixed;
+        overflow: hidden;
+}
+.tweet-box{
+    text-align: center;
+        background-color:rgba(147, 147, 147, 0.6);
+        text-shadow: 2px 2px black;
+        attachment: fixed;
+            margin-left: 5%;
+    margin-right:5%;
+    border-radius:15%;
+}
+.tweet-button{
+
+}
+.tweet-it{
+    color:white;
+    font-family: Poppins;
+    font-size: 1.2rem;
+}
+.holder{
+    text-align:center;
+}
+.quote-area{
+    text-align: center;
+    margin-left: 5%;
+    margin-right:5%;
+    background-color: rgba(0,0,0, 0.85);
+    border-radius:12%;
+ 
+}
+.quote-text{
+    color:white;
+    font-size:1rem;
+    text-align:center;
+    text-outline: 2px 2px black;
+    padding-right: 10%;
+    padding-left:10%;
+}
+
+.bottom-thing{
+    margin-top:10%;
+    position: absolute;
+    bottom:0;
+}
+
+.blank-space{
+    padding-right: 2%;
+}
+
+@media all and (min-width:1000px ){
+body{
+
   background-image:url("https://images.unsplash.com/reserve/LJIZlzHgQ7WPSh5KVTCB_Typewriter.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=f1a9c02e2797fae6489142772a546fb5");
   background-repeat: no-repeat;
   background-position: center;
 }
-
+html{
+    font-size: 16px;
+}
+.author-box{
+    text-align: center;
+        min-height: 95px;
+        attachment:fixed;
+        overflow: hidden;
+}
 .main-title{
-  color:black;
-  font-family: Patua One;
-  margin: 0 auto;
-  margin-top: 20px;
-  border-top: 2px solid gray;
-  border-bottom:2px solid gray;
-  font-size: 55px;
-  padding-top: 5px;
-  padding-bottom:5px;
-  text-align: center;
-  text-shadow: 4px 4px gray;
-  float: right;
-  vertical-align: top;
+    visibility: visible;
+    font-family: Patua One;
+    text-shadow: 2px 2px white;
 }
-.author{
-  padding-top:50px;
-  color: black;
-  font-family: Lobster;
-  text-align:center;
-  padding-bottom: 25px;
-  margin-bottom:20px;
-  font-size: 50px;
-  
-}
-.button-div{
-  padding-top: 50px;
-  padding-left: 150px;
-}
-.quote-box{
-  font-size: 25px;
-  margin: 0 auto;
-  overflow: hidden;
-  color:black;
-  text-align: center;
-  padding-left:220px;
-  padding-right: 220px;
-  vertical-align: text-top;
-
+.quote-area{
+    text-align: center;
+    margin-left: 20%;
+    margin-right:20%;
+    background-color: rgba(0,0,0, 0.85);
+    border-radius:12%;
+ 
 }
 .quote-text{
-   font-family: Oswald;
+    font-size:2rem;
+    font-family: Oswald;
+    padding:5%;
 }
-.get-quote{
-  font-family: Anton;
-  text-align: center;
-  margin: 0 auto;
-  
-}
-.blank-space{
-  margin-top: 670px;
-  font-size: 5px;
-}
-.tweet-button{
-  padding-top: 40px;
-}
-#limit { 
-  position: relative; 
-  overflow: hidden; }
-.alt-author{
-  font-family:Poppins;
-}
-
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
-    
-    body{
-        background-color:white;
-        
-    }
-    .main-title{
-        color:black;
-        font-size: 15px;
-        margin: 0 auto;
-        text-align: center;
-        
-    }
-    .author{
-        font-size: 12px;
-        margin: 0 auto;
-        font-color: pink;
-    }
-    
-}
-
-@media only screen
-and (min-device-width:481 px)
-and (max-device-width: 800 px){
-    
-    body{
-        background-color:black;
-        
-    }
 }

@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  var currentQupte = "";
+  var currentQuote = "";
   var currentAuthor ="";
   $(".main-title").hover(
     function(){
